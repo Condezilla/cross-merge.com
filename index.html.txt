@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossMerge | Official Site - Condezilla</title>
+    <style>
+        :root {
+            --primary-color: #a855f7; /* Vibrant Purple */
+            --accent-color: #3b82f6;  /* Sleek Blue */
+            --dark-bg: #0f172a;       /* Deep Navy */
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        header {
+            padding: 100px 20px 60px;
+            max-width: 800px;
+        }
+        .game-icon {
+            width: 140px;
+            height: 140px;
+            border-radius: 30px;
+            box-shadow: 0 0 30px rgba(168, 85, 247, 0.4);
+            margin-bottom: 25px;
+            border: 3px solid var(--primary-color);
+        }
+        h1 { font-size: 3.5rem; margin: 10px 0; background: linear-gradient(to right, #a855f7, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        p.tagline { font-size: 1.4rem; color: #94a3b8; margin-bottom: 30px; }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 18px 45px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+        .cta-button:hover { transform: translateY(-3px); box-shadow: 0 20px 25px -5px rgba(168, 85, 247, 0.4); }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 40px 20px;
+            max-width: 1100px;
+        }
+        .feature-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid #334155;
+            transition: border 0.3s;
+        }
+        .feature-card:hover { border-color: var(--primary-color); }
+        .feature-card h3 { color: var(--primary-color); margin-top: 0; }
+
+        footer {
+            margin-top: auto;
+            padding: 60px 20px;
+            background: rgba(0,0,0,0.2);
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .footer-links a { color: #94a3b8; text-decoration: none; margin: 0 15px; font-weight: 500; }
+        .footer-links a:hover { color: var(--primary-color); }
+        .dev-tag { margin-top: 20px; color: #64748b; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://via.placeholder.com/150/a855f7/ffffff?text=CM" alt="CrossMerge Icon" class="game-icon">
+        <h1>CrossMerge</h1>
+        <p class="tagline">The ultimate puzzle challenge by Condezilla.</p>
+        <a href="PASTE_YOUR_PLAY_STORE_LINK_HERE" class="cta-button">Play Now</a>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Addictive Strategy</h3>
+            <p>Master the board by merging pieces with precision and skill.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Smooth Experience</h3>
+            <p>Designed for mobile with fluid animations and haptic feedback.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Brain Training</h3>
+            <p>Challenge your logic with levels that range from relaxing to intense.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="mailto:support@yourdomain.com">Support</a>
+            <a href="/app-ads.txt">app-ads.txt</a>
+        </div>
+        <p class="dev-tag">&copy; 2026 Condezilla. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
